@@ -46,3 +46,44 @@ It should run perfectly.
 
 Once it starts to run perfectly, try your own versions.
 Perhaps make a Person class and create a LinkedListQueue with Persons.
+
+
+# Problem Solve G
+
+Surprise!
+This is also Problem Solve G!
+
+As you have probably noticed, this file has changed after switching branches.
+Try switching back to `main`.
+You'll notice this text is gone!
+This is part of the beauty of version control: you mark when things exist, and you can easily bring it in and out of existence.
+
+In this Problem Solve, you will continue exploring Git, get a bit of exposure to non-linear data structures (don't worry, you aren't expected to fully understand them), and do some debugging.
+
+> [!IMPORTANT]
+> While this README includes a lot of information, Canvas will include numbered tasks with further instructions on what you must do.
+
+## Task A
+
+Take a look over this branch.
+You'll notice a few new files: `BinarySearchTree.java` and `Player.java`.
+You'll also see that some files have changed: `README.md` and `Main.java`.
+
+Following the steps from Problem Solve F, generate Javadoc for these new files then answer the following questions:
+1. What is the last commit the `main` and `problemsolveg` branches share?
+2. What is different from the `main` and `problemsolveg` branches?
+3. What methods does `BinarySearchTree` have? What do they do?
+4. Do a bit of a research into binary search trees. What are they used for?
+5. What does `Player` implement and how?
+
+## Task B
+
+Run the `main` method.
+You _should_ see a randomly generated list of players ordered by health values from lowest to highest.
+Is this what you see?
+If not, what do you see instead?
+
+Look back over the repo and find and fix the bug.
+
+> [!TIP]
+> The comments describe what the code _should_ be doing.
