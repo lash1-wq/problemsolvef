@@ -2,46 +2,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        AQueue<String> queue = new LinkedListQueue<>();
+        // create tree with a single root player
+        BinarySearchTree<Player> bst = new BinarySearchTree<>(new Node<Player>(new Player()));
 
-        // all very significant computer science people
-        // in no particular order
-        queue.push("Hatsune Miku");
-        queue.push("Alan Turing");
-        queue.push("Dennis Ritchie");
-        queue.push("Grace Hopper");
-        queue.push("Ada Lovelace");
-        queue.push("John von Neumann");
-        queue.push("Linus Torvalds");
-        queue.push("Edsger W. Dijkstra");
-        queue.push("Tim Berners-Lee");
+        // add treeSize number of players to tree
+        int treeSize = 10;
+        for (int i = 0; i < treeSize - 1; i++) {
+            bst.add(new Player());
+        }
 
-        System.out.println("Original list:");
-        queue.display();
-        // Node: Hatsune Miku
-        // Node: Alan Turing
-        // Node: Dennis Ritchie
-        // Node: Grace Hopper
-        // Node: Ada Lovelace
-        // Node: John von Neumann
-        // Node: Linus Torvalds
-        // Node: Edsger W. Dijkstra
-        // Node: Tim Berners-Lee
-
-        System.out.println("\nPopping...");
-
-        System.out.println("Popped: " + queue.pop());
-        System.out.println("Popped: " + queue.pop());
-        System.out.println("Popped: " + queue.pop());
-
-        System.out.println("\nNew list:");
-        queue.display();
-        // Node: Grace Hopper
-        // Node: Ada Lovelace
-        // Node: John von Neumann
-        // Node: Linus Torvalds
-        // Node: Edsger W. Dijkstra
-        // Node: Tim Berners-Lee
+        // print out all players in order of health value
+        // hint: the bugs are not here
+        bst.display();
 
     }
 
