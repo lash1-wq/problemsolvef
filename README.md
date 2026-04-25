@@ -24,10 +24,11 @@ cd problemsolvef
 ## Task B - Explore the repository
 
 Look through the files and answer the following questions:
-1. What files are included in the repository?
-2. When was the first commit committed?
-3. What is the hash of the second commit?
-4. What is the message of the most recent commit?
+1. What files are included in the repository? An abstract class called AQueue.java, a class with a generic type called Node.java, and a class called Main.java
+2. When was the first commit committed? 1:59 PM 4/25/2026
+3. What is the hash of the second commit? 44c882eda11b3874d70f583ff89c531d21e5c70b
+4. What is the message of the most recent commit? Update README.md
+5. Hatsune Miku
 
 ## Task C - Implement the linked list
 
