@@ -24,7 +24,7 @@ cd problemsolvef
 ## Task B - Explore the repository
 
 Look through the files and answer the following questions:
-1. What files are included in the repository?
+1. What files are included in the repository? An abstract class called AQueue, a class called Main, and a class with a generic object type called Node
 2. When was the first commit committed?
 3. What is the hash of the second commit?
 4. What is the message of the most recent commit?
