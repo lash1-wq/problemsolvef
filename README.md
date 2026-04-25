@@ -26,7 +26,7 @@ cd problemsolvef
 Look through the files and answer the following questions:
 1. What files are included in the repository?
 2. When was the first commit committed?
-3. What is the hash of the second commit?
+3. What is the hash of the second commit? 44c882eda11b3874d70f583ff89c531d21e5c70b
 4. What is the message of the most recent commit?
 
 ## Task C - Implement the linked list
