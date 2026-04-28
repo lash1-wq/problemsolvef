@@ -20,3 +20,4 @@ public class LinkedListQueue extends AQueue<T> {
     }
     return element;
   }
+}
