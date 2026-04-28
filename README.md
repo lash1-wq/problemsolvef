@@ -25,7 +25,7 @@ cd problemsolvef
 
 Look through the files and answer the following questions:
 1. What files are included in the repository?
-2. When was the first commit committed?
+2. When was the first commit committed? 2:18 on April 28th, 2026
 3. What is the hash of the second commit?
 4. What is the message of the most recent commit?
 
